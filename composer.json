@@ -1,0 +1,22 @@
+{
+    "name"        : "jbzoo/toolbox",
+    "description" : "JBZoo Toolbox",
+    "license"     : "MIT",
+
+    "require"     : {
+        "jbzoo/assets"      : "^3.0.0||^4.0",
+        "jbzoo/data"        : "^3.0.1||^4.0",
+        "jbzoo/event"       : "^2.0.0||^3.0",
+        "jbzoo/http-client" : "^2.1.0||^3.0",
+        "jbzoo/image"       : "^4.0.1||^4.0",
+        "jbzoo/less"        : "^3.0.0||^4.0",
+        "jbzoo/mermaid-php" : "^1.1.1||^2.0",
+        "jbzoo/path"        : "^2.0.0||^3.0",
+        "jbzoo/utils"       : "^3.1.2||^4.0"
+    },
+
+    "require-dev" : {
+        "jbzoo/phpunit"   : "dev-master",
+        "jbzoo/codestyle" : "dev-master"
+    }
+}
