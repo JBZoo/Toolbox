@@ -8,7 +8,7 @@
 # @package    Toolbox
 # @license    MIT
 # @copyright  Copyright (C) JBZoo.com, All rights reserved.
-# @link       https://github.com/JBZoo/Data
+# @link       https://github.com/JBZoo/Toolbox
 #
 
 ifneq (, $(wildcard ./vendor/jbzoo/codestyle/src/init.Makefile))
@@ -23,5 +23,6 @@ update: ##@Project Install/Update all 3rd party dependencies
 
 
 test-all: ##@Project Run all project tests at once
-	@make codestyle
 	@make test
+	@make test-composer
+	@make report-composer-graph
