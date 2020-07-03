@@ -4,6 +4,8 @@
     "license"           : "MIT",
 
     "require"           : {
+        "php"               : ">=7.2",
+
         "jbzoo/assets"      : "3.0.x-dev",
         "jbzoo/data"        : "4.0.x-dev",
         "jbzoo/event"       : "3.0.x-dev",
@@ -12,7 +14,7 @@
         "jbzoo/less"        : "3.0.x-dev",
         "jbzoo/mermaid-php" : "2.0.x-dev",
         "jbzoo/path"        : "3.0.x-dev",
-        "jbzoo/utils"       : "4.0.x-dev"
+        "jbzoo/utils"       : "4.0.x-dev",
     },
 
     "require-dev"       : {

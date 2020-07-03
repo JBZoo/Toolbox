@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    JBZoo - Toolbox
+
+    This file is part of the JBZoo project.
+    For the full copyright and license information, please view the LICENSE
+    file that was distributed with this source code.
+
+    @package    Toolbox
+    @license    MIT
+    @copyright  Copyright (C) JBZoo.com, All rights reserved.
+    @link       https://github.com/JBZoo/Toolbox
+-->
+<psalm
+        errorLevel="1"
+        reportMixedIssues="false"
+        useDocblockPropertyTypes="true"
+        allowPhpStormGenerics="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://getpsalm.org/schema/config"
+        xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+>
+    <projectFiles>
+        <directory name="src"/>
+
+        <ignoreFiles>
+            <directory name="vendor"/>
+        </ignoreFiles>
+    </projectFiles>
+
+    <issueHandlers>
+        <DuplicateClass errorLevel="suppress"/>
+        <DuplicateFunction errorLevel="suppress"/>
+    </issueHandlers>
+</psalm>
