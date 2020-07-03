@@ -22,4 +22,9 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxCopyrightsTest extends AbstractCodestyleTest
 {
+    protected function setUp(): void
+    {
+        $this->excludePaths[] = 'src';
+        parent::setUp();
+    }
 }

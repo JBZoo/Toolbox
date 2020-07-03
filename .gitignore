@@ -16,3 +16,4 @@ build
 composer.lock
 vendor
 *.cache
+src/*

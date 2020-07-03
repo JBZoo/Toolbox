@@ -19,7 +19,10 @@
         "jbzoo/phpunit"             : "4.0.x-dev",
         "jbzoo/codestyle"           : "2.0.x-dev",
         "jbzoo/composer-graph"      : "1.0.x-dev",
-        "roave/security-advisories" : "dev-master"
+        "roave/security-advisories" : "dev-master",
+
+        "guzzlehttp/guzzle"         : "^6.4.1",
+        "rmccue/requests"           : "^1.7.0"
     },
 
     "minimum-stability" : "dev",
