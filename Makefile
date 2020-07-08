@@ -34,6 +34,9 @@ update: ##@Project Install/Update all 3rd party dependencies
 	@cp -r `pwd`/vendor/jbzoo/path/src            `pwd`/src/path
 	@cp -r `pwd`/vendor/jbzoo/utils/src           `pwd`/src/utils
 	@cp -r `pwd`/vendor/jbzoo/composer-graph/src  `pwd`/src/composer-graph
+	@cp -r `pwd`/vendor/jbzoo/composer-diff/src   `pwd`/src/composer-diff
+	@cp -r `pwd`/vendor/jbzoo/codestyle/src       `pwd`/src/codestyle
+	@cp -r `pwd`/vendor/jbzoo/phpunit/src         `pwd`/src/phpunit
 
 
 test-all: ##@Project Run all project tests at once
