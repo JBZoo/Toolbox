@@ -16,11 +16,10 @@
 namespace JBZoo\PHPUnit;
 
 /**
- * Class PathToolboxTest
+ * Class ToolboxReadmeTest
  *
  * @package JBZoo\PHPUnit
  */
-class PathToolboxTest extends AbstractReadmeTest
+class ToolboxComposerTest extends AbstractComposerTest
 {
-    protected $packageName = 'Path';
 }

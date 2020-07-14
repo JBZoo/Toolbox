@@ -4,8 +4,16 @@
     "license"           : "MIT",
     "keywords"          : ["jbzoo", "toolbox"],
 
+    "authors"           : [
+        {
+            "name"  : "Denis Smetannikov",
+            "email" : "admin@jbzoo.com",
+            "role"  : "lead"
+        }
+    ],
+
     "require"           : {
-        "php"               : ">=7.2",
+        "php"               : "^7.2",
 
         "jbzoo/assets"      : "^4.0.0",
         "jbzoo/data"        : "^4.0.0",
@@ -21,13 +29,11 @@
     },
 
     "require-dev"       : {
-        "jbzoo/phpunit"             : "^4.0.0",
+        "jbzoo/phpunit"             : "^4.1.0",
         "jbzoo/codestyle"           : "^2.0.0",
         "jbzoo/composer-graph"      : "^1.0.0",
         "jbzoo/composer-diff"       : "^1.0.0",
-
         "roave/security-advisories" : "dev-master",
-
         "rmccue/requests"           : "^1.7.0"
     },
 
@@ -39,7 +45,7 @@
 
     "extra"             : {
         "branch-alias" : {
-            "dev-master" : "2.0.x-dev"
+            "dev-master" : "2.x-dev"
         }
     }
 }
