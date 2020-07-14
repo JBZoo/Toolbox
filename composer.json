@@ -1,35 +1,37 @@
 {
     "name"              : "jbzoo/toolbox",
-    "description"       : "JBZoo Toolbox",
+    "description"       : "It directly integrates the entire JBZoo libraries in one place. In the future, it will be the framework.",
     "license"           : "MIT",
+    "keywords"          : ["jbzoo", "toolbox"],
 
     "require"           : {
         "php"               : ">=7.2",
 
-        "jbzoo/assets"      : "3.0.x-dev",
-        "jbzoo/data"        : "4.0.x-dev",
-        "jbzoo/event"       : "3.0.x-dev",
-        "jbzoo/http-client" : "3.0.x-dev",
-        "jbzoo/image"       : "5.0.x-dev",
-        "jbzoo/less"        : "3.0.x-dev",
-        "jbzoo/mermaid-php" : "2.0.x-dev",
-        "jbzoo/path"        : "3.0.x-dev",
-        "jbzoo/utils"       : "4.0.x-dev"
+        "jbzoo/assets"      : "^4.0.0",
+        "jbzoo/data"        : "^4.0.0",
+        "jbzoo/event"       : "^3.0.0",
+        "jbzoo/http-client" : "^3.0.0",
+        "jbzoo/image"       : "^5.0.0",
+        "jbzoo/less"        : "^4.0.0",
+        "jbzoo/mermaid-php" : "^2.0.0",
+        "jbzoo/path"        : "^3.0.0",
+        "jbzoo/utils"       : "^4.0.0",
+
+        "guzzlehttp/guzzle" : "^6.4.1||^7.0"
     },
 
     "require-dev"       : {
-        "jbzoo/phpunit"             : "4.0.x-dev",
-        "jbzoo/codestyle"           : "2.0.x-dev",
-        "jbzoo/composer-graph"      : "1.0.x-dev",
-        "jbzoo/composer-diff"       : "1.0.x-dev",
+        "jbzoo/phpunit"             : "^4.0.0",
+        "jbzoo/codestyle"           : "^2.0.0",
+        "jbzoo/composer-graph"      : "^1.0.0",
+        "jbzoo/composer-diff"       : "^1.0.0",
+
         "roave/security-advisories" : "dev-master",
 
-        "guzzlehttp/guzzle"         : "^6.4.1",
         "rmccue/requests"           : "^1.7.0"
     },
 
-    "minimum-stability" : "dev",
-    "prefer-stable"     : true,
+    "minimum-stability" : "stable",
 
     "config"            : {
         "optimize-autoloader" : true
@@ -37,7 +39,7 @@
 
     "extra"             : {
         "branch-alias" : {
-            "dev-master" : "1.0.x-dev"
+            "dev-master" : "2.0.x-dev"
         }
     }
 }
