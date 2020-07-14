@@ -23,4 +23,19 @@ namespace JBZoo\PHPUnit;
 class ToolboxReadmeTest extends AbstractReadmeTest
 {
     protected $packageName = 'Toolbox';
+
+    /**
+     * @var string[]
+     */
+    protected $badgesTemplate = [
+        'travis',
+        'psalm_coverage',
+        '__BR__',
+        'latest_stable_version',
+        'latest_unstable_version',
+        'dependents',
+        'github_issues',
+        'total_downloads',
+        'github_license',
+    ];
 }
