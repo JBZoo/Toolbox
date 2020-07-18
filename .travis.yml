@@ -20,9 +20,13 @@ php:
   - 7.3
   - 7.4
 
+env:
+  matrix:
+    - JBZOO_COMPOSER_UPDATE_FLAGS="--prefer-lowest --prefer-stable"
+    - JBZOO_COMPOSER_UPDATE_FLAGS=""
+
 before_script:
   - composer self-update
-  - phpenv config-rm xdebug.ini
 
 script:
   - make update   --no-print-directory

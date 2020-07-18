@@ -23,7 +23,7 @@
         "jbzoo/less"        : "^4.0.1",
         "jbzoo/mermaid-php" : "^2.1.0",
         "jbzoo/path"        : "^3.0.1",
-        "jbzoo/utils"       : "^4.1.0",
+        "jbzoo/utils"       : "^4.1.1",
 
         "guzzlehttp/guzzle" : "^6.4.1||^7.0"
     },
