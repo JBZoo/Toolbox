@@ -25,19 +25,21 @@
         "jbzoo/path"        : "^3.0.1",
         "jbzoo/utils"       : "^4.1.1",
 
-        "guzzlehttp/guzzle" : "^6.4.1||^7.0"
+        "guzzlehttp/guzzle" : "^6.4.1"
     },
 
     "require-dev"       : {
         "jbzoo/phpunit"             : "^4.1.0",
-        "jbzoo/codestyle"           : "^2.1.0",
+        "jbzoo/codestyle"           : "dev-master",
         "jbzoo/composer-graph"      : "^1.0.1",
         "jbzoo/composer-diff"       : "^1.1.0",
+
         "roave/security-advisories" : "dev-master",
         "rmccue/requests"           : "^1.7.0"
     },
 
-    "minimum-stability" : "stable",
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
 
     "config"            : {
         "optimize-autoloader" : true
