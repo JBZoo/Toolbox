@@ -19,7 +19,7 @@
         "jbzoo/data"        : ">=4.0.2",
         "jbzoo/event"       : ">=3.0.2",
         "jbzoo/http-client" : ">=3.1.0",
-        "jbzoo/image"       : ">=5.0.1",
+        "jbzoo/image"       : ">=5.0.2",
         "jbzoo/less"        : ">=4.0.3",
         "jbzoo/mermaid-php" : ">=2.1.1",
         "jbzoo/path"        : ">=3.0.2",
@@ -46,6 +46,12 @@
     "extra"             : {
         "branch-alias" : {
             "dev-master" : "2.x-dev"
+        }
+    },
+
+    "config" : {
+        "platform" : {
+            "php" : "8.0"
         }
     }
 }
