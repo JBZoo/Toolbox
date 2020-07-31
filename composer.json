@@ -13,26 +13,26 @@
     ],
 
     "require"           : {
-        "php"               : "^7.2",
+        "php"               : ">=7.2",
 
-        "jbzoo/assets"      : "^4.0.1",
-        "jbzoo/data"        : "^4.0.1",
-        "jbzoo/event"       : "^3.0.1",
-        "jbzoo/http-client" : "^3.0.1",
-        "jbzoo/image"       : "^5.0.1",
-        "jbzoo/less"        : "^4.0.1",
-        "jbzoo/mermaid-php" : "^2.1.0",
-        "jbzoo/path"        : "^3.0.1",
-        "jbzoo/utils"       : "^4.1.1",
+        "jbzoo/assets"      : "dev-master",
+        "jbzoo/data"        : "dev-master",
+        "jbzoo/event"       : "dev-master",
+        "jbzoo/http-client" : "dev-master",
+        "jbzoo/image"       : "dev-master",
+        "jbzoo/less"        : "dev-master",
+        "jbzoo/mermaid-php" : "dev-master",
+        "jbzoo/path"        : "dev-master",
+        "jbzoo/utils"       : "dev-master",
 
-        "guzzlehttp/guzzle" : "^6.4.1"
+        "guzzlehttp/guzzle" : ">=6.4.1"
     },
 
     "require-dev"       : {
-        "jbzoo/phpunit"             : "^4.1.0",
+        "jbzoo/phpunit"             : "dev-master",
         "jbzoo/codestyle"           : "dev-master",
-        "jbzoo/composer-graph"      : "^1.0.1",
-        "jbzoo/composer-diff"       : "^1.1.0",
+        "jbzoo/composer-graph"      : "dev-master",
+        "jbzoo/composer-diff"       : "dev-master",
 
         "roave/security-advisories" : "dev-master",
         "rmccue/requests"           : "^1.7.0"
