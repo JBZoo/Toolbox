@@ -37,6 +37,7 @@ update: ##@Project Install/Update all 3rd party dependencies
 	@cp -r `pwd`/vendor/jbzoo/composer-diff/src   `pwd`/src/composer-diff
 	@cp -r `pwd`/vendor/jbzoo/codestyle/src       `pwd`/src/codestyle
 	@cp -r `pwd`/vendor/jbzoo/phpunit/src         `pwd`/src/phpunit
+	@cp -r `pwd`/vendor/jbzoo/toolbox-ci/src      `pwd`/src/toolbox-ci
 
 
 test-all: ##@Project Run all project tests at once

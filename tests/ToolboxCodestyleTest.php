@@ -20,7 +20,7 @@ namespace JBZoo\PHPUnit;
  * Class ToolboxCodestyleTest
  * @package JBZoo\PHPUnit
  */
-class ToolboxCodestyleTest extends AbstractCopyrightTest
+class ToolboxCodestyleTest extends AbstractCodestyleTest
 {
     protected $packageName   = "Toolbox";
     protected $packageVendor = 'JBZoo';

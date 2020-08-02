@@ -20,7 +20,7 @@ namespace JBZoo\PHPUnit;
  * Class ToolboxCopyrightsTest
  * @package JBZoo\PHPUnit
  */
-class ToolboxCopyrightsTest extends AbstractCodestyleTest
+class ToolboxCopyrightsTest extends AbstractCopyrightTest
 {
     protected function setUp(): void
     {
