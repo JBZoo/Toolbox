@@ -22,6 +22,9 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxCopyrightsTest extends AbstractCopyrightTest
 {
+    protected $packageName   = "Toolbox";
+    protected $packageVendor = 'JBZoo';
+
     protected function setUp(): void
     {
         $this->excludePaths[] = 'src';

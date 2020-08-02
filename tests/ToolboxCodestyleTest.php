@@ -22,12 +22,14 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxCodestyleTest extends AbstractCodestyleTest
 {
-    protected $packageName   = "Toolbox";
-    protected $packageVendor = 'JBZoo';
-
     protected function setUp(): void
     {
         $this->excludePaths[] = 'src';
         parent::setUp();
+    }
+
+    public function testClassesPhpDocs(): void
+    {
+        skip('Not actual');
     }
 }
