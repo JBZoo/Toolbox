@@ -25,7 +25,7 @@
         "jbzoo/path"           : "dev-master",
         "jbzoo/utils"          : "dev-master",
 
-        "guzzlehttp/guzzle"    : ">=6.4.1",
+        "guzzlehttp/guzzle"    : ">=6.5.5",
         "hanneskod/classtools" : "^1.2.1"
     },
 
