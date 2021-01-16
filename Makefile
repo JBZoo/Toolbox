@@ -41,7 +41,7 @@ update: ##@Project Install/Update all 3rd party dependencies
 
 
 test-all: ##@Project Run all project tests at once
-	@make codestyle
 	@make test-composer
 	@make report-composer-graph
 	@make test
+	@-make codestyle
