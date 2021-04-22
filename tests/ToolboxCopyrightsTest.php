@@ -11,8 +11,9 @@
  * @license    MIT
  * @copyright  Copyright (C) JBZoo.com, All rights reserved.
  * @link       https://github.com/JBZoo/Toolbox
- * @author     Denis Smetannikov <denis@jbzoo.com>
  */
+
+declare(strict_types=1);
 
 namespace JBZoo\PHPUnit;
 
@@ -22,8 +23,9 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxCopyrightsTest extends AbstractCopyrightTest
 {
-    protected $packageName   = "Toolbox";
-    protected $packageVendor = 'JBZoo';
+    protected $packageName     = "Toolbox";
+    protected $packageVendor   = 'JBZoo';
+    protected $isPhpStrictType = true;
 
     protected function setUp(): void
     {

@@ -13,6 +13,8 @@
  * @link       https://github.com/JBZoo/Toolbox
  */
 
+declare(strict_types=1);
+
 namespace JBZoo\PHPUnit;
 
 /**
@@ -30,6 +32,7 @@ class ToolboxReadmeTest extends AbstractReadmeTest
     protected $badgesTemplate = [
         'travis',
         'psalm_coverage',
+        'strict_types',
         '__BR__',
         'latest_stable_version',
         'latest_unstable_version',
@@ -38,4 +41,14 @@ class ToolboxReadmeTest extends AbstractReadmeTest
         'total_downloads',
         'github_license',
     ];
+
+    /**
+     * @inheritDoc
+     */
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->params['strict_types'] = true;
+    }
 }

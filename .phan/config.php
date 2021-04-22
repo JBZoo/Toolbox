@@ -13,6 +13,8 @@
  * @link       https://github.com/JBZoo/Toolbox
  */
 
+declare(strict_types=1);
+
 $default = include __DIR__ . '/../vendor/jbzoo/codestyle/src/phan/default.php';
 
 $index = array_search('UnusedSuppressionPlugin', $default['plugins'], true);
