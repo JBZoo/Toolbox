@@ -30,7 +30,6 @@ class ToolboxReadmeTest extends AbstractReadmeTest
      * @var string[]
      */
     protected $badgesTemplate = [
-        'travis',
         'psalm_coverage',
         'strict_types',
         '__BR__',
@@ -50,5 +49,6 @@ class ToolboxReadmeTest extends AbstractReadmeTest
         parent::setUp();
 
         $this->params['strict_types'] = true;
+        $this->params['travis'] = false;
     }
 }

@@ -39,6 +39,7 @@ update: ##@Project Install/Update all 3rd party dependencies
 	@cp -r `pwd`/vendor/jbzoo/codestyle/src              `pwd`/src/codestyle
 	@cp -r `pwd`/vendor/jbzoo/phpunit/src                `pwd`/src/phpunit
 	@cp -r `pwd`/vendor/jbzoo/ci-report-converter/src    `pwd`/src/ci-report-converter
+	@cp -r `pwd`/vendor/jbzoo/markdown/src               `pwd`/src/markdown
 
 
 test-all: ##@Project Run all project tests at once
