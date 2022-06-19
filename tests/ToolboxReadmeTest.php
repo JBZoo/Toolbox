@@ -24,31 +24,5 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxReadmeTest extends AbstractReadmeTest
 {
-    protected $packageName = 'Toolbox';
-
-    /**
-     * @var string[]
-     */
-    protected $badgesTemplate = [
-        'psalm_coverage',
-        'strict_types',
-        '__BR__',
-        'latest_stable_version',
-        'latest_unstable_version',
-        'dependents',
-        'github_issues',
-        'total_downloads',
-        'github_license',
-    ];
-
-    /**
-     * @inheritDoc
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        $this->params['strict_types'] = true;
-        $this->params['travis'] = false;
-    }
+    protected string $packageName = 'Toolbox';
 }

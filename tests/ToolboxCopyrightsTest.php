@@ -23,9 +23,8 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxCopyrightsTest extends AbstractCopyrightTest
 {
-    protected $packageName     = "Toolbox";
-    protected $packageVendor   = 'JBZoo';
-    protected $isPhpStrictType = true;
+    protected $packageName   = "Toolbox";
+    protected $packageVendor = 'JBZoo';
 
     protected function setUp(): void
     {
