@@ -13,33 +13,34 @@
     ],
 
     "require"     : {
-        "php"               : ">=7.2",
+        "php"               : ">=7.4",
 
-        "jbzoo/assets"      : ">=4.3.2",
-        "jbzoo/data"        : ">=4.3.3",
-        "jbzoo/event"       : ">=3.2.2",
-        "jbzoo/http-client" : ">=3.6.1",
-        "jbzoo/image"       : ">=5.2.1",
-        "jbzoo/less"        : ">=4.2.1",
-        "jbzoo/mermaid-php" : ">=2.3.2",
-        "jbzoo/path"        : ">=3.2.1",
-        "jbzoo/utils"       : ">=4.5.4",
-        "jbzoo/retry"       : ">=2.2.2",
-        "jbzoo/markdown"    : ">=1.1.0",
+        "jbzoo/assets"      : ">=5.0.0",
+        "jbzoo/data"        : ">=5.0.0",
+        "jbzoo/event"       : ">=4.0.1",
+        "jbzoo/http-client" : ">=4.0.0",
+        "jbzoo/image"       : ">=5.3.0",
+        "jbzoo/less"        : ">=5.0.0",
+        "jbzoo/mermaid-php" : ">=3.0.0",
+        "jbzoo/path"        : ">=4.0.0",
+        "jbzoo/utils"       : ">=5.0.0",
+        "jbzoo/retry"       : ">=3.0.0",
+        "jbzoo/markdown"    : ">=1.2.0",
+        "jbzoo/cli"         : ">=2.0.0",
 
         "guzzlehttp/guzzle" : ">=6.5.5"
     },
 
     "require-dev" : {
-        "jbzoo/phpunit"             : ">=4.11.1",
-        "jbzoo/codestyle"           : ">=3.0.0",
-        "jbzoo/composer-graph"      : ">=1.3.2",
-        "jbzoo/composer-diff"       : ">=1.5.2",
-        "jbzoo/toolbox-dev"         : ">=3.1.0",
-        "jbzoo/ci-report-converter" : ">=2.5.2",
+        "jbzoo/phpunit"             : ">=5.0.0",
+        "jbzoo/codestyle"           : ">=4.0.1",
+        "jbzoo/composer-graph"      : ">=1.6.0",
+        "jbzoo/composer-diff"       : ">=1.8.0",
+        "jbzoo/toolbox-dev"         : ">=4.0.1",
+        "jbzoo/ci-report-converter" : ">=2.9.0",
         "jbzoo/jbdump"              : ">=1.5.6",
 
-        "rmccue/requests"           : ">=1.8.1",
+        "rmccue/requests"           : ">=2.0.3",
         "roave/security-advisories" : "dev-master"
     },
 
