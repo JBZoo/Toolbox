@@ -1,10 +1,14 @@
 {
-    "name"        : "jbzoo/toolbox",
-    "description" : "It directly integrates the entire JBZoo libraries in one place. In the future, it will be the framework.",
-    "license"     : "MIT",
-    "keywords"    : ["jbzoo", "toolbox"],
+    "name"         : "jbzoo/toolbox",
+    "description"  : "It directly integrates the entire JBZoo libraries in one place. In the future, it will be the framework.",
+    "type"         : "library",
+    "license"      : "MIT",
+    "keywords"     : [
+        "jbzoo",
+        "toolbox"
+    ],
 
-    "authors"     : [
+    "authors"      : [
         {
             "name"  : "Denis Smetannikov",
             "email" : "admin@jbzoo.com",
@@ -12,8 +16,8 @@
         }
     ],
 
-    "require"     : {
-        "php"               : ">=7.4",
+    "require"      : {
+        "php"               : "^8.1",
 
         "jbzoo/assets"      : ">=5.0.0",
         "jbzoo/data"        : ">=5.0.0",
@@ -31,12 +35,11 @@
         "guzzlehttp/guzzle" : ">=6.5.5"
     },
 
-    "require-dev" : {
+    "require-dev"  : {
         "jbzoo/phpunit"             : ">=5.0.0",
-        "jbzoo/codestyle"           : ">=4.0.1",
+        "jbzoo/codestyle"           : "7.x-dev",
         "jbzoo/composer-graph"      : ">=1.6.0",
         "jbzoo/composer-diff"       : ">=1.8.0",
-        "jbzoo/toolbox-dev"         : ">=4.0.1",
         "jbzoo/ci-report-converter" : ">=2.9.0",
         "jbzoo/jbdump"              : ">=1.5.6",
 
@@ -44,9 +47,22 @@
         "roave/security-advisories" : "dev-master"
     },
 
-    "extra"       : {
+    "autoload"     : {
+        "psr-4" : {"JBZoo\\Toolbox\\" : "src"}
+    },
+
+    "autoload-dev" : {
+        "psr-4" : {"JBZoo\\PHPUnit\\" : "tests"}
+    },
+
+    "config"       : {
+        "optimize-autoloader" : true,
+        "allow-plugins"       : {"composer/package-versions-deprecated" : true}
+    },
+
+    "extra"        : {
         "branch-alias" : {
-            "dev-master" : "1.x-dev"
+            "dev-master" : "7.x-dev"
         }
     }
 }

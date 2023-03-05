@@ -1,30 +1,29 @@
 <?php
 
 /**
- * JBZoo - Toolbox
+ * JBZoo - Toolbox.
  *
  * This file is part of the JBZoo project.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @package    Toolbox
  * @license    MIT
  * @copyright  Copyright (C) JBZoo.com, All rights reserved.
- * @link       https://github.com/JBZoo/Toolbox
+ * @see       https://github.com/JBZoo/Toolbox
  */
 
 declare(strict_types=1);
 
 $default = include __DIR__ . '/vendor/jbzoo/codestyle/src/phan/default.php';
 
-$index = array_search('UnusedSuppressionPlugin', $default['plugins'], true);
+$index = \array_search('UnusedSuppressionPlugin', $default['plugins'], true);
 unset($default['plugins'][$index]);
 
-return array_merge($default, [
+return \array_merge($default, [
     'file_list' => [
         'src/phpunit/functions/defines.php',
         'src/phpunit/functions/aliases.php',
-        'src/phpunit/functions/tools.php'
+        'src/phpunit/functions/tools.php',
     ],
 
     'directory_list' => [
@@ -56,6 +55,6 @@ return array_merge($default, [
         'vendor/composer/semver/src',
 
         // codestyle
-        'vendor/phan/phan/src'
-    ]
+        'vendor/phan/phan/src',
+    ],
 ]);
