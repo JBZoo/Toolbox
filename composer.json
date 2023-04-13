@@ -21,6 +21,7 @@
 
     "require"           : {
         "php"               : "^8.1",
+        "ext-dom"           : "*",
 
         "jbzoo/assets"      : "7.x-dev",
         "jbzoo/data"        : "7.x-dev",
