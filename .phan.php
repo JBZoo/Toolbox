@@ -1,23 +1,20 @@
 <?php
 
 /**
- * JBZoo - Toolbox.
+ * JBZoo Toolbox - Toolbox.
  *
- * This file is part of the JBZoo project.
+ * This file is part of the JBZoo Toolbox project.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
  * @license    MIT
  * @copyright  Copyright (C) JBZoo.com, All rights reserved.
- * @see       https://github.com/JBZoo/Toolbox
+ * @see        https://github.com/JBZoo/Toolbox
  */
 
 declare(strict_types=1);
 
-$default = include __DIR__ . '/vendor/jbzoo/codestyle/src/phan/default.php';
-
-$index = \array_search('UnusedSuppressionPlugin', $default['plugins'], true);
-unset($default['plugins'][$index]);
+$default = include __DIR__ . '/vendor/jbzoo/codestyle/src/phan.php';
 
 return \array_merge($default, [
     'file_list' => [

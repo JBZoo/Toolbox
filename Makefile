@@ -24,21 +24,21 @@ update: ##@Project Install/Update all 3rd party dependencies
 	@mkdir  `pwd`/src
 	@touch  `pwd`/src/.gitkeep
 	@cp -r `pwd`/vendor/jbzoo/assets/src                 `pwd`/src/assets
+	@cp -r `pwd`/vendor/jbzoo/ci-report-converter/src    `pwd`/src/ci-report-converter
+	@cp -r `pwd`/vendor/jbzoo/codestyle/src              `pwd`/src/codestyle
+	@cp -r `pwd`/vendor/jbzoo/composer-diff/src          `pwd`/src/composer-diff
+	@cp -r `pwd`/vendor/jbzoo/composer-graph/src         `pwd`/src/composer-graph
 	@cp -r `pwd`/vendor/jbzoo/data/src                   `pwd`/src/data
 	@cp -r `pwd`/vendor/jbzoo/event/src                  `pwd`/src/event
 	@cp -r `pwd`/vendor/jbzoo/http-client/src            `pwd`/src/http-client
 	@cp -r `pwd`/vendor/jbzoo/image/src                  `pwd`/src/image
 	@cp -r `pwd`/vendor/jbzoo/less/src                   `pwd`/src/less
+	@cp -r `pwd`/vendor/jbzoo/markdown/src               `pwd`/src/markdown
 	@cp -r `pwd`/vendor/jbzoo/mermaid-php/src            `pwd`/src/mermaid-php
 	@cp -r `pwd`/vendor/jbzoo/path/src                   `pwd`/src/path
-	@cp -r `pwd`/vendor/jbzoo/utils/src                  `pwd`/src/utils
-	@cp -r `pwd`/vendor/jbzoo/retry/src                  `pwd`/src/retry
-	@cp -r `pwd`/vendor/jbzoo/composer-graph/src         `pwd`/src/composer-graph
-	@cp -r `pwd`/vendor/jbzoo/composer-diff/src          `pwd`/src/composer-diff
-	@cp -r `pwd`/vendor/jbzoo/codestyle/src              `pwd`/src/codestyle
 	@cp -r `pwd`/vendor/jbzoo/phpunit/src                `pwd`/src/phpunit
-	@cp -r `pwd`/vendor/jbzoo/ci-report-converter/src    `pwd`/src/ci-report-converter
-	@cp -r `pwd`/vendor/jbzoo/markdown/src               `pwd`/src/markdown
+	@cp -r `pwd`/vendor/jbzoo/retry/src                  `pwd`/src/retry
+	@cp -r `pwd`/vendor/jbzoo/utils/src                  `pwd`/src/utils
 
 
 test-all: ##@Project Run all project tests at once

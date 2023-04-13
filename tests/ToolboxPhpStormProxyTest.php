@@ -16,14 +16,6 @@ declare(strict_types=1);
 
 namespace JBZoo\PHPUnit;
 
-final class ToolboxPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackageTest
+final class ToolboxPhpStormProxyTest extends \JBZoo\Codestyle\PHPUnit\AbstractPhpStormProxyTest
 {
-    protected string $packageName = 'Toolbox';
-
-    protected function setUp(): void
-    {
-        $this->excludedPathsForCopyrights[] = 'src';
-        $this->excludePaths[]               = 'src';
-        parent::setUp();
-    }
 }
