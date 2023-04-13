@@ -52,8 +52,7 @@
     },
 
     "autoload"          : {
-        "psr-4"    : {"JBZoo\\Toolbox\\" : "src"},
-        "classmap" : ["src/"]
+        "psr-4" : {"JBZoo\\Toolbox\\" : "src"}
     },
 
     "autoload-dev"      : {
