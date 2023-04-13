@@ -14,10 +14,16 @@
 
 declare(strict_types=1);
 
-$autoload = \dirname(__DIR__) . '/vendor/autoload.php';
-if (\file_exists($autoload)) {
-    require_once $autoload;
-} else {
-    echo 'Please execute "composer update" !' . \PHP_EOL;
-    exit(1);
+namespace JBZoo\PHPUnit;
+
+final class ToolboxPackageTest extends \JBZoo\Codestyle\PHPUnit\AbstractPackageTest
+{
+    protected string $packageName = 'Toolbox';
+
+    protected function setUp(): void
+    {
+        $this->excludedPathsForCopyrights[] = 'src';
+        $this->excludePaths[]               = 'src';
+        parent::setUp();
+    }
 }

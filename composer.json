@@ -1,10 +1,14 @@
 {
-    "name"        : "jbzoo/toolbox",
-    "description" : "It directly integrates the entire JBZoo libraries in one place. In the future, it will be the framework.",
-    "license"     : "MIT",
-    "keywords"    : ["jbzoo", "toolbox"],
+    "name"              : "jbzoo/toolbox",
+    "description"       : "It directly integrates the entire JBZoo libraries in one place. In the future, it will be the framework.",
+    "type"              : "library",
+    "license"           : "MIT",
+    "keywords"          : [
+        "jbzoo",
+        "toolbox"
+    ],
 
-    "authors"     : [
+    "authors"           : [
         {
             "name"  : "Denis Smetannikov",
             "email" : "admin@jbzoo.com",
@@ -12,41 +16,58 @@
         }
     ],
 
-    "require"     : {
-        "php"               : ">=7.4",
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
 
-        "jbzoo/assets"      : ">=5.0.0",
-        "jbzoo/data"        : ">=5.0.0",
-        "jbzoo/event"       : ">=4.0.1",
-        "jbzoo/http-client" : ">=4.0.0",
-        "jbzoo/image"       : ">=5.3.0",
-        "jbzoo/less"        : ">=5.0.0",
-        "jbzoo/mermaid-php" : ">=3.0.0",
-        "jbzoo/path"        : ">=4.0.0",
-        "jbzoo/utils"       : ">=5.0.0",
-        "jbzoo/retry"       : ">=3.0.0",
-        "jbzoo/markdown"    : ">=1.2.0",
-        "jbzoo/cli"         : ">=2.0.0",
+    "require"           : {
+        "php"               : "^8.1",
+        "ext-dom"           : "*",
+
+        "jbzoo/assets"      : "7.x-dev",
+        "jbzoo/cli"         : "7.x-dev",
+        "jbzoo/data"        : "7.x-dev",
+        "jbzoo/event"       : "7.x-dev",
+        "jbzoo/http-client" : "7.x-dev",
+        "jbzoo/image"       : "7.x-dev",
+        "jbzoo/less"        : "7.x-dev",
+        "jbzoo/markdown"    : "7.x-dev",
+        "jbzoo/mermaid-php" : "7.x-dev",
+        "jbzoo/path"        : "7.x-dev",
+        "jbzoo/retry"       : "7.x-dev",
+        "jbzoo/utils"       : "7.x-dev",
 
         "guzzlehttp/guzzle" : ">=6.5.5"
     },
 
-    "require-dev" : {
-        "jbzoo/phpunit"             : ">=5.0.0",
-        "jbzoo/codestyle"           : ">=4.0.1",
-        "jbzoo/composer-graph"      : ">=1.6.0",
-        "jbzoo/composer-diff"       : ">=1.8.0",
-        "jbzoo/toolbox-dev"         : ">=4.0.1",
-        "jbzoo/ci-report-converter" : ">=2.9.0",
+    "require-dev"       : {
+        "jbzoo/ci-report-converter" : "7.x-dev",
+        "jbzoo/codestyle"           : "7.x-dev",
+        "jbzoo/composer-diff"       : "7.x-dev",
+        "jbzoo/composer-graph"      : "7.x-dev",
         "jbzoo/jbdump"              : ">=1.5.6",
+        "jbzoo/phpunit"             : "7.x-dev",
 
         "rmccue/requests"           : ">=2.0.3",
         "roave/security-advisories" : "dev-master"
     },
 
-    "extra"       : {
+    "autoload"          : {
+        "psr-4"    : {"JBZoo\\Toolbox\\" : "src"},
+        "classmap" : ["src/"]
+    },
+
+    "autoload-dev"      : {
+        "psr-4" : {"JBZoo\\PHPUnit\\" : "tests"}
+    },
+
+    "config"            : {
+        "optimize-autoloader" : true,
+        "allow-plugins"       : {"composer/package-versions-deprecated" : true}
+    },
+
+    "extra"             : {
         "branch-alias" : {
-            "dev-master" : "1.x-dev"
+            "dev-master" : "7.x-dev"
         }
     }
 }
