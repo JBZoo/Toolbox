@@ -25,6 +25,7 @@ update: ##@Project Install/Update all 3rd party dependencies
 	@touch  `pwd`/src/.gitkeep
 	@cp -r `pwd`/vendor/jbzoo/assets/src                 `pwd`/src/assets
 	@cp -r `pwd`/vendor/jbzoo/ci-report-converter/src    `pwd`/src/ci-report-converter
+	@cp -r `pwd`/vendor/jbzoo/cli/src                    `pwd`/src/cli
 	@cp -r `pwd`/vendor/jbzoo/codestyle/src              `pwd`/src/codestyle
 	@cp -r `pwd`/vendor/jbzoo/composer-diff/src          `pwd`/src/composer-diff
 	@cp -r `pwd`/vendor/jbzoo/composer-graph/src         `pwd`/src/composer-graph
