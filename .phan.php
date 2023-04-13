@@ -41,6 +41,7 @@ return \array_merge($default, [
         // utils
         'vendor/symfony/console',
         'vendor/symfony/process',
+        'vendor/bluepsyduck/symfony-process-manager/src',
 
         // phpunit
         'vendor/phpunit/phpunit/src',
@@ -53,5 +54,7 @@ return \array_merge($default, [
 
         // codestyle
         'vendor/phan/phan/src',
+        'vendor/friendsofphp/php-cs-fixer/src',
+        'vendor/kubawerlos/php-cs-fixer-custom-fixers/src',
     ],
 ]);
