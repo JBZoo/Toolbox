@@ -20,7 +20,7 @@
     "prefer-stable"     : true,
 
     "require"           : {
-        "php"                 : "^8.1",
+        "php"                 : "^8.2",
         "ext-dom"             : "*",
 
         "jbzoo/assets"        : "^7.0",
@@ -35,7 +35,7 @@
         "jbzoo/path"          : "^7.0",
         "jbzoo/retry"         : "^7.0",
         "jbzoo/utils"         : "^7.0",
-        "jbzoo/csv-blueprint" : "^0.3",
+        "jbzoo/csv-blueprint" : "^1.0.1",
 
         "guzzlehttp/guzzle"   : ">=6.5.5"
     },
