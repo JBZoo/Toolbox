@@ -41,6 +41,10 @@ return \array_merge($default, [
         // less, assets
         'vendor/wikimedia/less.php',
 
+        // cli
+        'vendor/psr/log',
+        'vendor/monolog/monolog',
+
         // utils
         'vendor/bluepsyduck/symfony-process-manager/src',
         'vendor/symfony/console',

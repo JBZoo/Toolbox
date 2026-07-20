@@ -20,35 +20,33 @@
     "prefer-stable"     : true,
 
     "require"           : {
-        "php"                 : "^8.1",
-        "ext-dom"             : "*",
+        "php"               : "^8.3",
+        "ext-dom"           : "*",
 
-        "jbzoo/assets"        : "^7.0",
-        "jbzoo/cli"           : "^7.0",
-        "jbzoo/data"          : "^7.0",
-        "jbzoo/event"         : "^7.0",
-        "jbzoo/http-client"   : "^7.0",
-        "jbzoo/image"         : "^7.0",
-        "jbzoo/less"          : "^7.0",
-        "jbzoo/markdown"      : "^7.0",
-        "jbzoo/mermaid-php"   : "^7.0",
-        "jbzoo/path"          : "^7.0",
-        "jbzoo/retry"         : "^7.0",
-        "jbzoo/utils"         : "^7.0",
-        "jbzoo/csv-blueprint" : "^0.3",
+        "jbzoo/assets"      : "^8.0",
+        "jbzoo/cli"         : "^8.0",
+        "jbzoo/data"        : "^8.0",
+        "jbzoo/event"       : "^8.0",
+        "jbzoo/http-client" : "^8.0",
+        "jbzoo/image"       : "^8.0",
+        "jbzoo/less"        : "^8.0",
+        "jbzoo/markdown"    : "^8.0",
+        "jbzoo/mermaid-php" : "^8.0",
+        "jbzoo/path"        : "^8.0",
+        "jbzoo/retry"       : "^8.0",
+        "jbzoo/utils"       : "^8.0",
 
-        "guzzlehttp/guzzle"   : ">=6.5.5"
+        "guzzlehttp/guzzle" : ">=7.15.1"
     },
 
     "require-dev"       : {
-        "jbzoo/ci-report-converter" : "^7.0",
-        "jbzoo/codestyle"           : "^7.0",
-        "jbzoo/composer-diff"       : "^7.0",
-        "jbzoo/composer-graph"      : "^7.0",
-        "jbzoo/jbdump"              : ">=1.5.6|^7.0",
-        "jbzoo/phpunit"             : "^7.0",
+        "jbzoo/ci-report-converter" : "^8.0",
+        "jbzoo/codestyle"           : "^8.0",
+        "jbzoo/composer-diff"       : "^8.0",
+        "jbzoo/composer-graph"      : "^8.0",
+        "jbzoo/phpunit"             : "^8.0",
 
-        "rmccue/requests"           : ">=2.0.7",
+        "rmccue/requests"           : ">=2.0.18",
         "roave/security-advisories" : "dev-master"
     },
 
@@ -67,7 +65,7 @@
 
     "extra"             : {
         "branch-alias" : {
-            "dev-master" : "7.x-dev"
+            "dev-master" : "8.x-dev"
         }
     }
 }
